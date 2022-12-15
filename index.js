@@ -60,9 +60,9 @@ app.get("/demo", async (req, res) => {
   }
 })
 
-// app.get('/', (req, res) => {
-//   res.send('Hello Gente!')
-// })
+app.get('/', (req, res) => {
+  res.send('Hello Gente!')
+})
 
 const startServer = async () => {
   await Moralis.start({

@@ -1,0 +1,24 @@
+{
+  "name": "ted197-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ted197/Ted197.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ted197/Ted197.github.io/issues"
+  },
+  "homepage": "https://github.com/Ted197/Ted197.github.io#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moralis": "^2.9.0"
+  }
+}

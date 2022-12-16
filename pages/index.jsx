@@ -7,6 +7,7 @@ function HomePage() {
         <div>
             <h3>Wallet: {address}</h3>
             <h3>Native Balance: {nativeBalance?.balance.ether} ETH</h3>
+            <h3>v0.0.0</h3>
         </div>
     );
 }
